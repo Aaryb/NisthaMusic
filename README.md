@@ -1,6 +1,6 @@
 # ɴɪsᴛʜᴀ ᴍᴜsɪᴄ
 
-<p align="center"><a href="https://t.me/TechQuard"><img src="https://te.legra.ph/file/5307b3db65b6b778a747f.jpg" width="300"></a></p>
+<p align="center"><img src="https://te.legra.ph/file/5307b3db65b6b778a747f.jpg" width="300"></a></p>
 <p align="center">
 
 
@@ -17,10 +17,10 @@
 <p align="center">
     🧪 ɢᴇᴛ sᴛʀɪɴɢ sᴇssɪᴏɴ ꜰʀᴏᴍ ʜᴇʀᴇ:
 
-[ʜᴀɴᴀ sᴇssɪᴏɴ ʙᴏᴛ](https://t.me/HanaSessionBot)
+[ʜᴀɴᴀ sᴇssɪᴏɴ ʙᴏᴛ](https://t.me/HinataSessionBot)
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ
-<a href="https://t.me/TheSupportBots"><img src="https://img.shields.io/badge/Join-Group%20Support-black.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/TheBotsUpdate"><img src="https://img.shields.io/badge/Join-Updates%20Channel-black.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.dog/TeleBotxSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-black.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://telegram.dog/TeleBotSUpdate"><img src="https://img.shields.io/badge/Join-Updates%20Channel-black.svg?style=for-the-badge&logo=Telegram"></a>
 
  
 
