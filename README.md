@@ -1,4 +1,4 @@
-# ɴɪsᴛʜᴀ ✘ ᴍᴜsɪᴄ
+# ɴɪsᴛʜᴀ ᴍᴜsɪᴄ
 
 <p align="center"><a href="https://t.me/TechQuard"><img src="https://te.legra.ph/file/5307b3db65b6b778a747f.jpg" width="300"></a></p>
 <p align="center">
