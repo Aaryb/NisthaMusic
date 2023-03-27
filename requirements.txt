@@ -18,10 +18,3 @@ py-tgcalls==0.9.7
 yt-dlp==2021.12.01
 youtube-search
 youtube-search-python==1.4.9
-
-
-
-
-
-
-
