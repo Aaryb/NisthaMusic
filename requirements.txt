@@ -9,7 +9,7 @@ numpy
 pillow
 psutil
 python-dotenv
-pyrogram==1.4.16
+pyrogram==2.0.102
 py-tgcalls==0.9.7
 requests
 speedtest-cli
