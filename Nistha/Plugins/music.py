@@ -164,13 +164,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     return final
 
 
-@Client.on_message(
-    commandpro(["/play", "/yt", "/ytp"])
-    & filters.group
-    & ~filters.edited
-    & ~filters.forwarded
-    & ~filters.via_bot
-)
+@Client.on_message(filters.command(["yt", "play"], prefixes=["/", "!"]))    
 async def play(_, message: Message):
     global que
     global useer
