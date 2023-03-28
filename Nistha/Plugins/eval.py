@@ -12,7 +12,6 @@ from sys import version as pyver
 from Nistha.config import BOT_USERNAME
 from pyrogram import Client
 from Nistha.Modules.helpers.decorators import sudo_users_only
-from Nistha.Modules.helpers.filters import command
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 
@@ -30,7 +29,7 @@ async def edit_or_reply(msg: Message, **kwargs):
     await func(**{k: v for k, v in kwargs.items() if k in spec})
 
 
-@Client.on_message(command(["eval", f"eval@{BOT_USERNAME}"]) & ~filters.edited)
+@Client.on_message(filters.command(["eval"], prefixes=["/", "!"]))
 @sudo_users_only
 async def executor(client, message):
     if len(message.command) < 2:
@@ -105,7 +104,7 @@ async def runtime_func_cq(_, cq):
     await cq.answer(runtime, show_alert=True)
 
 
-@Client.on_message(command(["sh", f"sh@{BOT_USERNAME}"]) & ~filters.edited)
+@Client.on_message(filters.command(["sh"], prefixes=["/", "!"]))
 @sudo_users_only
 async def shellrunner(client, message):
     if len(message.command) < 2:
