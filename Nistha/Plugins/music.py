@@ -22,7 +22,6 @@ from Nistha.Modules.cache import youtube
 from Nistha.config import DURATION_LIMIT, que, SUDO_USERS
 from Nistha.Modules.cache.admins import admins as a
 from Nistha.Modules.helpers.filters import command, other_filters
-from Nistha.Modules.helpers.command import commandpro
 from Nistha.Modules.helpers.decorators import errors, authorized_users_only
 from Nistha.Modules.helpers.errors import DurationLimitError
 from Nistha.Modules.helpers.gets import get_url, get_file_name
@@ -398,8 +397,8 @@ async def play(_, message: Message):
     os.remove("final.png")
     return await lel.delete()
     
-    
-@Client.on_message(commandpro(["/pause", ".pause"]) & other_filters)
+
+@Client.on_message(filters.command(["pause"], prefixes=["/", "!"]))    
 @errors
 @authorized_users_only
 async def pause(_, message: Message):
@@ -408,7 +407,7 @@ async def pause(_, message: Message):
     
 
 
-@Client.on_message(commandpro(["/resume", "resume"]) & other_filters)
+@Client.on_message(filters.command(["resume"], prefixes=["/", "!"]))
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
@@ -417,7 +416,7 @@ async def resume(_, message: Message):
     
     
 
-@Client.on_message(commandpro(["/skip", "/next"]) & other_filters)
+@Client.on_message(filters.command(["skip", "next"], prefixes=["/", "!"]))
 @errors
 @authorized_users_only
 async def skip(_, message: Message):
@@ -449,7 +448,7 @@ async def skip(_, message: Message):
     
 
 
-@Client.on_message(commandpro(["/end", "/stop"]) & other_filters)
+@Client.on_message(filters.command(["end", "stop"], prefixes=["/", "!"]))
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -462,7 +461,7 @@ async def stop(_, message: Message):
     await message.reply_text("**» ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ɴᴏᴛʜɪɴɢ ɪs sᴛʀᴇᴀᴍɪɴɢ.**")
     
 
-@Client.on_message(commandpro(["/reload", "/refresh"]))
+@Client.on_message(filters.command(["reload", "refresh"], prefixes=["/", "!"]))
 @errors
 @authorized_users_only
 async def admincache(client, message: Message):
