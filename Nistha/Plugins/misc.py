@@ -5,7 +5,6 @@ import aiohttp
 import yt_dlp
 from pyrogram.types import Message
 from pyrogram import Client, filters
-from Nistha.Modules.helpers.filters import command, other_filters
 from pyrogram.errors import UserAlreadyParticipant
 from Nistha.Modules.helpers.decorators import authorized_users_only
 from Nistha.Modules.cache.clientbot import client as user
@@ -16,9 +15,8 @@ from youtube_search import YoutubeSearch
 # ×=======================> ᴜsᴇʀʙᴏᴛ ᴊᴏɪɴ ᴄᴏᴍᴍᴀɴᴅ <==================================× #
 
 
-@Client.on_message(
-    command(["join", " userbotjoin"]) & ~filters.private & ~filters.bot
-)
+
+@Client.on_message(filters.command(["join", "userbotjoin"], prefixes=["/", "!"]))
 @authorized_users_only
 async def join_chat(c: Client, m: Message):
     await m.delete()
@@ -47,7 +45,7 @@ async def join_chat(c: Client, m: Message):
 
 # ×=======================> ɪɴғᴏ <==================================× #
 
-@Client.on_message(command(["id", "stickerid", f"id@{BOT_USERNAME}"]))
+@Client.on_message(filters.command(["id", "stickerid"], prefixes=["/", "!"]))
 async def showid(_, message: Message):
     await message.delete()
     chat_type = message.chat.type
@@ -84,9 +82,9 @@ def time_to_seconds(time):
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
 
-@Client.on_message(filters.command(["song", "music", " vsong"]) & ~filters.private & ~filters.channel)
-def song(client, message):
 
+@Client.on_message(filters.command(["song", "music"], prefixes=["/", "!"]))
+def song(client, message):
     message.delete()
     user_id = message.from_user.id 
     user_name = message.from_user.first_name 
