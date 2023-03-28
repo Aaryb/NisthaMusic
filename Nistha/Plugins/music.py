@@ -21,7 +21,6 @@ from Nistha.Modules.cache import converter
 from Nistha.Modules.cache import youtube
 from Nistha.config import DURATION_LIMIT, que, SUDO_USERS
 from Nistha.Modules.cache.admins import admins as a
-from Nistha.Modules.helpers.filters import command, other_filters
 from Nistha.Modules.helpers.decorators import errors, authorized_users_only
 from Nistha.Modules.helpers.errors import DurationLimitError
 from Nistha.Modules.helpers.gets import get_url, get_file_name
