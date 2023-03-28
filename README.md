@@ -1,6 +1,6 @@
 # ɴɪsᴛʜᴀ ᴍᴜsɪᴄ
 
-<p align="center"><img src="https://te.legra.ph/file/5307b3db65b6b778a747f.jpg" width="300"></a></p>
+<p align="center"><img src="https://graph.org/file/1aa17a6f7725b70e05f62.jpg" width="300"></a></p>
 <p align="center">
 
 
