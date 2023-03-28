@@ -13,7 +13,7 @@ dnspython
 speedtest-cli
 ffmpeg-python
 python-dotenv
-pyrogram==1.4.16
+pyrogram==2.0.102
 py-tgcalls==0.9.7
 yt-dlp==2023.03.04
 youtube-search
