@@ -4,7 +4,7 @@ import asyncio
 import speedtest
 from PIL import Image
 from pyrogram.types import Message
-from pyrogram import filters, Client as client
+from pyrogram import filters, Client
 
 
 def testspeed(m):
