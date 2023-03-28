@@ -1,13 +1,12 @@
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from Nistha.Modules.helpers.filters import command, other_filters
 from Nistha.Modules.helpers.decorators import sudo_users_only, errors
 
 downloads = os.path.realpath("downloads")
 raw_files = os.path.realpath("raw_files")
 
-@Client.on_message(command(["rmd", "clear"]) & ~filters.edited)
+@Client.on_message(filters.command(["rmd", "clear"], prefixes=["/", "!"]))
 @errors
 @sudo_users_only
 async def clear_downloads(_, message: Message):
@@ -20,7 +19,7 @@ async def clear_downloads(_, message: Message):
         await message.reply_text("❌ **ɴᴏ ғɪʟᴇs ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ**")
 
         
-@Client.on_message(command(["rmw", "clean"]) & ~filters.edited)
+@Client.on_message(filters.command(["rmw", "clean"], prefixes=["/", "!"]))
 @errors
 @sudo_users_only
 async def clear_raw(_, message: Message):
@@ -33,7 +32,7 @@ async def clear_raw(_, message: Message):
         await message.reply_text("❌ **ɴᴏ ʀᴀᴡ ғɪʟᴇs**")
 
 
-@Client.on_message(command(["cleanup"]) & ~filters.edited)
+@Client.on_message(filters.command(["cleanup"], prefixes=["/", "!"]))
 @errors
 @sudo_users_only
 async def cleanup(_, message: Message):
