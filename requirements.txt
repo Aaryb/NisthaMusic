@@ -15,6 +15,6 @@ ffmpeg-python
 python-dotenv
 pyrogram==1.4.16
 py-tgcalls==0.9.7
-yt-dlp==2021.12.01
+yt-dlp==2023.03.04
 youtube-search
 youtube-search-python==1.4.9
