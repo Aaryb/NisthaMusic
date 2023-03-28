@@ -17,7 +17,7 @@
 <p align="center">
     🧪 ɢᴇᴛ sᴛʀɪɴɢ sᴇssɪᴏɴ ꜰʀᴏᴍ ʜᴇʀᴇ:
 
-[ʜᴀɴᴀ sᴇssɪᴏɴ ʙᴏᴛ](https://t.me/HinataSessionBot)
+[ʜɪɴᴀᴛᴀ sᴇssɪᴏɴ ʙᴏᴛ](https://telegram.dog/HinataSessionBot)
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ
 <a href="https://telegram.dog/TeleBotxSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-black.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://telegram.dog/TeleBotSUpdate"><img src="https://img.shields.io/badge/Join-Updates%20Channel-black.svg?style=for-the-badge&logo=Telegram"></a>
