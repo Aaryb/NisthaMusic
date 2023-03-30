@@ -15,7 +15,7 @@
             "required": true
         },
          "OWNER_USERNAME": {
-            "description": "𝙵𝚒𝚕𝚕 𝚢𝚘𝚞 𝙾𝚠𝚗𝚎𝚛 𝚞𝚜𝚎𝚛𝚗𝚊𝚖𝚎 𝚋𝚞𝚝 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚞𝚜𝚒𝚗𝚐 '@'𝚜𝚢𝚖𝚋𝚘𝚕,
+            "description": "𝙵𝚒𝚕𝚕 𝚢𝚘𝚞 𝙾𝚠𝚗𝚎𝚛 𝚞𝚜𝚎𝚛𝚗𝚊𝚖𝚎 𝚋𝚞𝚝 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚞𝚜𝚒𝚗𝚐 '@'𝚜𝚢𝚖𝚋𝚘𝚕",
             "required": true
         },
          "UPDATE_CHANNEL": {
